@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootsstrap example</title>
+	<meta charset="utf-8">
+	<meta  content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootsstrap.min.css' %}">
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+   <div class="container mt-4">
+   	<div class="row">
+   		<div class="col bg-sucess mx-2 border rounded">
+   			<h2>first devison</h2>
+
+   		</div>
+   		<div class="col bg-info mx-2border rounded">
+   			<h2>second devison</h2>
+   		</div>
+   	</div>
+   </div>
+   <div class="card-body">
+   	<h3>registration form</h3>
+   	<form>
+   		<input type="text" name="" placeholder="user name" class="form-control"><br>
+   		<input type="password" name="" placeholder="enter password" class="form-control">
+
+           <div class="col">
+           	<input type="number" name="" placeholder="enter age" class="form-control">
+           </div>
+   		<div class="col-sm-6">
+   			<select class="form-control col-sm-6 my-2">
+   			<option value="male">male</option>
+   		</select>
+   		<select>
+   			<option value="female">female</option>
+   		</select>
+   	    </div>
+   	</form>
+   </div>
+  
+
+  
+</body>
+</html>

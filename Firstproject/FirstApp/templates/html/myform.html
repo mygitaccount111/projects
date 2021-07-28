@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my html form</title>
+</head>
+<body>
+    <form action="{% url 'myform' %}" method="POST">
+
+    	<input type="text" name="uname" placeholder="your name"><br>
+    	<input type="text" name="roll no" placeholder="roll no"><br>
+    	<input type="email" name="email" placeholder="email"><br>
+    	<input type="submit" name="submit" value="submit">
+    </form>
+</body>
+</html>

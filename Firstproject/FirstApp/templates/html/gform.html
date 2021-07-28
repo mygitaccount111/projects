@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="{% static 'css/gform.css' %}">
+</head>
+<body>
+<div id="wrapper">
+
+<div id="contact_form_div">
+ <p id="contact_label">CONTACT  FORM</p>
+ <form method="post" action="">
+  <p><input type="text" placeholder="Enter Name"></p>
+  <p><input type="text" placeholder="Enter Email"></p>
+  <p><input type="text" placeholder="Enter Contact No"></p>
+  <p><textarea placeholder="Enter Message"></textarea></p>
+  <p><input type="submit" value="SUBMIT"></p>
+ </form>
+</div>
+
+</div>
+</body>
+</html>
